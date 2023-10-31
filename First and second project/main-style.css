@@ -1,0 +1,111 @@
+.hobby-gif {
+    display:flex;
+    position: absolute;
+    left: 38%;
+}
+.text {
+    padding-left: 10%;
+    padding-right:10%;
+}
+.text p {
+    font-size: 25px;
+    text-align: justify;
+}
+#jazda1 {
+    padding-left: 150px;
+}
+#jazda {
+    width: 20%;
+    height: 20%;
+}
+#jazda:hover {
+    opacity: 0.6;
+}
+#darts1 {
+    padding-left:15px;
+}
+#darts {
+    width: 20%;
+    height:20%;
+}
+#darts:hover {
+    opacity:0.6;
+}
+#e-sports1 {
+    padding-left:15px;
+}
+#e-sports {
+    width: 20%;
+    height: 20%;
+}
+#e-sports:hover {
+    opacity: 0.6;
+}
+#soccer1 {
+    padding-left: 15px;
+}
+#soccer {
+    width:20%;
+    height:20%;
+}
+#soccer:hover {
+    opacity: 0.6;
+}
+#forms1 {
+    padding-top: 40px;
+    padding-left: 45.5%;
+}
+#forms {
+    width: 8%;
+    height: 8%;
+}
+#forms:hover {
+    opacity: 0.6;
+}
+@keyframes mymove {
+    0% {left: 1%;}
+    50% {left: 95%;}
+    100% {left:1%;}
+  }
+.circle {
+    background:black;
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    position:relative;
+    animation: mymove 20s infinite;
+}
+p::first-letter {
+    font-size: 35px;
+}
+@media screen and (max-width: 500px) {
+    .hobby-gif {
+        display:none;
+    }
+    .text p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .space {
+        display:none
+    }
+    #jazda1 {
+        padding-left: 1%;
+    }
+    @keyframes mymove {
+        0% {left: 1%;}
+        50% {left: 86%;}
+        100% {left:1%;}
+      }
+
+}
+@media screen and (min-width: 500px) {
+    #starter {
+        display:none;
+    }
+}
+#starter {
+    font-size:30px;
+    font-weight:700;
+    text-align:center;
+}

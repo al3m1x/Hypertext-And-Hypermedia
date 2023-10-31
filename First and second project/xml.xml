@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ekstraklasa>
+<teams>
+<team>
+    <name last_season_place="1" debut="1922">Lech Poznań</name>
+    <image source="pictures/lech.jpg">Lech Poznań</image>
+    <link source="https://www.lechpoznan.pl/">Strona Lecha Poznań</link>
+    <trainer year_start="2021">Maciej Skorża</trainer>
+    <players>
+        <player>
+            <first_name>Maciej</first_name>
+            <last_name>Skóraś</last_name>
+            <state>
+                <playing>yes</playing>
+            </state>
+            <country city="Jastrzębie-Zdrój">Poland</country>
+            <position side="right">Midfielder</position>
+            <age>22</age>
+        </player>
+        <player>
+            <first_name>Kristoffer</first_name>
+            <last_name>Velde</last_name>
+            <state>
+                <playing>yes</playing>
+            </state>
+            <country>Norway</country>
+            <position side="center">Striker</position>
+            <age>23</age>
+        </player>
+    </players>
+</team>
+<team>
+    <name last_season_place="4" debut="1945">Lechia Gdańsk</name>
+    <image source="pictures/lechia-herb.png">Lechia Gdańsk</image>
+    <link source="https://lechia.pl/">Strona Lechii Gdańsk</link>
+    <trainer year_start="2022">Marcin Kaczmarek</trainer>
+    <players>
+        <player>
+            <first_name>Flavio</first_name>
+            <last_name>Paixao</last_name>
+            <state>
+                <playing>yes</playing>
+            </state>
+            <country city="Sesimbra">Portugal</country>
+            <position side="center">Striker</position>
+            <age>38</age>
+        </player>
+        <player>
+            <first_name>Dusan</first_name>
+            <last_name>Kuciak</last_name>
+            <state>
+                <playing>yes</playing>
+            </state>
+            <country city="Zylina">Slovakia</country>
+            <position>Goalkeeper</position>
+            <age>37</age>
+        </player>
+    </players>
+</team>
+<team>
+    <name last_season_place="10" debut="1920">Legia Warszawa</name>
+    <image source="pictures/legia.png">Legia Warszawa</image>
+    <link source="https://legia.com/pilka-nozna">Strona Legii Warszawa</link>
+    <trainer year_start="2022">Kosta Runjaić</trainer>
+    <players>
+        <player>
+            <first_name>Artur</first_name>
+            <last_name>Jędrzejczyk</last_name>
+            <state>
+                <playing>yes</playing>
+            </state>
+            <country city="Dębica">Poland</country>
+            <position side="center">Defender</position>
+            <age>35</age>
+        </player>
+        <player>
+            <first_name>Carlos</first_name>
+            <last_name>Lopez</last_name>
+            <state>
+                <playing>yes</playing>
+            </state>
+            <country city="Alicante">Spain</country>
+            <position side="center">Striker</position>
+            <age>32</age>
+        </player>
+    </players>
+</team>
+<team>
+    <name last_season_place="2" debut="1921">Raków Częstochowa</name>
+    <image source="pictures/raków.png">Raków Częstochowa</image>
+    <link source="https://rakow.com/">Strona Rakowa Częstochowa</link>
+    <trainer year_start="2016">Marek Papszun</trainer>
+    <players>
+        <player>
+            <first_name>Ivi</first_name>
+            <last_name>Lopez</last_name>
+            <state>
+                <playing>yes</playing>
+            </state>
+            <country city="Madryt">Spain</country>
+            <position side="center" positioning="offensive">Midfielder</position>
+            <age>28</age>
+        </player>
+        <player>
+            <first_name>Vladislavs</first_name>
+            <last_name>Gutkovskis</last_name>
+            <state>
+                <playing>yes</playing>
+            </state>
+            <country city="Ryga">Latvia</country>
+            <position side="center">Striker</position>
+            <age>27</age>
+        </player>
+    </players>
+</team>
+</teams>
+<history>
+    <most_goals>
+        <players>
+        <player>
+            <first_name>Ernest</first_name>
+            <last_name>Pohl</last_name>
+            <state>
+                <alive>no</alive>
+            </state>
+            <country city="Ruda Śląska">Poland</country>
+            <goals>186</goals>
+        </player>
+        <player>
+            <first_name>Lucjan</first_name>
+            <last_name>Brychczy</last_name>
+            <state>
+                <alive>yes</alive>
+            </state>
+            <country city="Nowy Bytom">Poland</country>
+            <goals>182</goals>
+        </player>
+        <player>
+            <first_name>Gerard</first_name>
+            <last_name>Cieślik</last_name>
+            <state>
+                <alive>no</alive>
+            </state>
+            <country>Poland</country>
+            <goals>167</goals>
+        </player>
+        </players>
+    </most_goals>
+    <league_winners>
+        <historical_team debut="1920">
+            <team_name>Ruch Chorzów</team_name>
+            <trophies>14</trophies>
+        </historical_team>
+        <historical_team debut="1948">
+            <team_name>Górnik Zabrze</team_name>
+            <trophies>14</trophies>
+        </historical_team>
+        <historical_team debut="1920">
+            <team_name>Legia Warszawa</team_name>
+            <trophies>13</trophies>
+        </historical_team>
+        <historical_team debut="1906">
+            <team_name>Wisła Kraków</team_name>
+            <trophies>13</trophies>
+        </historical_team>
+    </league_winners>
+    <ruch_trophies>1933 1934 1935 1936 1938 1951 1952 1953 1960 1968 1974 1975 1979 1989</ruch_trophies>
+</history>
+<sponsor>
+    <year season="2004/2005">
+        <titular_sponsor>Idea</titular_sponsor>
+    </year>
+    <year season="2005/2006">
+        <titular_sponsor>Orange</titular_sponsor>
+    </year>
+    <year season="2006/2007">
+        <titular_sponsor>Orange</titular_sponsor>
+    </year>
+    <year season="2007/2008">
+        <titular_sponsor>Orange</titular_sponsor>
+    </year>
+    <year season="2011/2012">
+        <titular_sponsor>T-Mobile</titular_sponsor>
+    </year>
+    <year season="2012/2013">
+        <titular_sponsor>T-Mobile</titular_sponsor>
+    </year>
+    <year season="2013/2014">
+        <titular_sponsor>T-Mobile</titular_sponsor>
+    </year>
+    <year season="2014/2015">
+        <titular_sponsor>T-Mobile</titular_sponsor>
+    </year>
+    <year season="2016/2017">
+        <titular_sponsor>Lotto</titular_sponsor>
+        <strategic_sponsor>Keno</strategic_sponsor>
+    </year>
+    <year season="2017/2018">
+        <titular_sponsor>Lotto</titular_sponsor>
+    </year>
+    <year season="2018/2019">
+        <titular_sponsor>Lotto</titular_sponsor>
+        <strategic_sponsor>PKO BP</strategic_sponsor>
+    </year>
+    <year season="2019/2020">
+        <titular_sponsor>PKO BP</titular_sponsor>
+        <strategic_sponsor>Stihl</strategic_sponsor>
+    </year>
+    <year season="2020/2021">
+        <titular_sponsor>PKO BP</titular_sponsor>
+        <strategic_sponsor>Stihl</strategic_sponsor>
+    </year>
+    <year season="2021/2022">
+        <titular_sponsor>PKO BP</titular_sponsor>
+        <strategic_sponsor>Stihl</strategic_sponsor>
+    </year>
+</sponsor>
+</ekstraklasa>

@@ -1,0 +1,214 @@
+html, body {
+    background-image: url("pictures/darts-background.jpg");
+    background-position: center;
+    background-color:rgb(224, 75, 55);
+}
+#orange-strap {
+    opacity: 0.35;
+    height: 100px;
+    width: 100%;
+}
+.orange-strap {
+    position: relative;
+}
+.header {
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+}
+h2 {
+    font-size: 50px;
+}
+p {
+    font-size: 30px;
+    background-color:rgb(248, 162, 123, 0.5);
+}
+#p1 {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:rgb(248, 162, 123, 0.5);
+}
+.p1 {
+    width: 50%;
+}
+#odl {
+    padding-right: 5%;
+    float: right;
+    width: 25%;
+    height: auto;
+    position: relative;
+    bottom: 115px;
+}
+#dart-board {
+    float:right;
+    padding-right: 6%;
+    position: relative;
+}
+#p2 {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:rgb(248, 162, 123, 0.5);
+    text-align: justify;
+}
+.p2 {
+    width: 50%;
+}
+#tarcza {
+    width: 23%;
+    height: auto;
+    float: right;
+    position:relative;
+    left: 100px;
+}
+#p3, #p4 {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+}
+.p3 {
+    width: 30%;
+}
+#pub3 {
+    float:right;
+    padding-right: 15%;
+    position:relative;
+    width: 40%;
+    height: auto;
+}
+#wright {
+    width: 40%;
+    float:left;
+    padding-left: 2%;
+}
+#ratajski {
+    float:right;
+    width: 48%;
+    padding-right: 2%;
+}
+#tld1 {
+    width:50%;
+    height: auto;
+    float:left;
+    padding-left: 2%;
+    position:static;
+}
+#tld2 {
+    width:42%;
+    height: auto;
+    float:right;
+    padding-right: 2%;
+    position:static;
+}
+footer {
+    background: rgb(201, 57, 0);
+}
+.navigation ul {
+    background-color:rgb(184, 51, 28);
+}
+.navigation li, .navigation a {
+    background-color:rgb(184, 51, 28);
+}
+.navigation li a:hover, .dart:hover {
+    background-color:rgb(207, 99, 36);
+}
+.dart {
+    background-color: rgb(184, 51, 28);
+}
+.sub-content a {
+    background-color: rgb(184, 51, 28);
+  }
+  @media screen and (max-width:500px) {
+    #orange-strap {
+        display:none;
+    }
+    .header {
+        display:none;
+    }
+    .space {
+        display:none;
+    }
+    h1 {
+        font-size:30px;
+        font-family:'Courier New', Courier, monospace;
+        text-align:center;
+    }
+    h2 {
+        font-size:28px;
+        text-align:center;
+    }
+    #odl {
+        display:none;
+    }
+    #dart-board {
+        display:none;
+    }
+    #odl1 {
+        width:40%;
+        padding-left:1%;
+    }
+    #dart-board1 {
+        float:left;
+        width:40%;
+        padding-left:7.5%;
+    }
+    .p1, .p2, .p3, .p4, .p5 {
+        width:94%;
+        padding-left:1%;
+    }
+    #p4 {
+        width: 90%;
+    }
+    p {
+        font-size:16px;
+    }
+    #tarcza {
+        display:none;
+    }
+    #tarcza1 {
+        width:80%;
+        padding-left:7%;
+    }
+    #pub3 {
+        display:none
+    }
+    #pub31 {
+        width:80%;
+        padding-left:5%;
+    }
+    body html {
+        padding-left:1%;
+    }
+    #tld2 {
+        padding-right: 5%;
+    }
+    #tld1 {
+        padding-left:1%;
+    }
+  }
+  @media screen and (min-width:500px) {
+    h1 {
+        display:none;
+    }
+    #odl1 {
+        display:none;
+    }
+    #dart-board1 {
+        display:none;
+    }
+    #tarcza1 {
+        display:none;
+    }
+    .space2 {
+        display:none;
+    }
+    #pub31 {
+        display:none
+    }
+  }
+  #opener {
+    position:relative;
+    left:50px;
+    top:30px;
+  }

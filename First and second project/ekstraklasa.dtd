@@ -1,0 +1,47 @@
+<!ELEMENT ekstraklasa (teams, history, sponsor)>
+
+<!ENTITY % positions "right|left|center">
+<!ENTITY % player_data "first_name, last_name, state, country, position?, age?, goals?">
+
+<!ELEMENT teams (team+)>
+<!ELEMENT team (name, image, link, trainer, players)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name last_season_place CDATA #REQUIRED>
+<!ATTLIST name debut CDATA #REQUIRED>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image source CDATA #REQUIRED>
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link source CDATA #REQUIRED>
+<!ELEMENT trainer (#PCDATA)>
+<!ATTLIST trainer year_start CDATA #REQUIRED>
+
+<!ELEMENT players (player+)>
+<!ELEMENT player (%player_data;)>
+<!ATTLIST player gender CDATA "male">
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT state (playing | alive)>
+<!ELEMENT playing (#PCDATA)>
+<!ELEMENT alive (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ATTLIST country city CDATA #IMPLIED>
+<!ELEMENT position (#PCDATA)>
+<!ATTLIST position side (%positions;) #IMPLIED>
+<!ATTLIST position positioning (offensive | defensive) #IMPLIED>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT goals (#PCDATA)>
+
+<!ELEMENT history (most_goals, league_winners, ruch_trophies)>
+<!ELEMENT most_goals (players)>
+<!ELEMENT league_winners (historical_team+)>
+<!ELEMENT historical_team (team_name, trophies)>
+<!ATTLIST historical_team debut CDATA #REQUIRED>
+<!ELEMENT team_name (#PCDATA)>
+<!ELEMENT trophies (#PCDATA)>
+<!ELEMENT ruch_trophies (#PCDATA)>
+
+<!ELEMENT sponsor (year+)>
+<!ELEMENT year (titular_sponsor, strategic_sponsor?)>
+<!ATTLIST year season CDATA #REQUIRED>
+<!ELEMENT titular_sponsor (#PCDATA)>
+<!ELEMENT strategic_sponsor (#PCDATA)>

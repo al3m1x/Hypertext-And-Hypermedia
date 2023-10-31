@@ -1,0 +1,71 @@
+body html {
+    background-image:none;
+    background-image: url("pictures/japan.jpg");
+    background-color:bisque;
+}
+h2 {
+    text-align:center;
+    font-size:35px;
+}
+form {
+    padding-left:32%;
+    font-size:20px;
+    border:1px solid;
+    border-color:black;
+}
+input[type=text]:hover, textarea:hover {
+    border: 1px solid;
+    border-color:red;
+}
+input[type=reset],input[type=submit] {
+    font-size:40px;
+    border: 3px solid;
+    border-color:black;
+    border-radius:3px;
+}
+input[type=reset] {
+    background-color:red;
+}
+input[type=submit] {
+    background-color:rgb(2, 139, 180);
+}
+input[type=reset]:hover {
+    background-color:rgb(209, 91, 91);
+}
+input[type=submit]:hover {
+    background-color:rgb(76, 199, 236);
+}
+@media screen and (max-width:1050px) {
+form {padding-left:20%;
+    font-size:18px; 
+}
+#textarea1 {
+    display:none;
+}
+}
+@media screen and (max-width:500px) {
+    form {
+        padding-left:5%; 
+        font-size:16px;
+    }
+    .space {
+        display:none;
+    }
+}
+@media screen and (min-width:1050px) {
+    #textarea2 {
+        display:none;
+    }
+}
+.second-button {
+    color:white;
+    background-color:black;
+}
+.second-theme {
+    color:white;
+    background-image: url("pictures/japan2.jpg");
+}
+.second-border {
+    border: 2px solid;
+    border-color:white;
+}

@@ -1,0 +1,226 @@
+html, body {
+    background-color: rgb(154, 177, 169);
+    background-image: url("pictures/japan.jpg");
+    background-position: center;
+}
+footer {
+    height:30px;
+    background: rgb(153, 160, 157);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+@media screen and (min-width:1300px) {
+.navigation li {
+    float: left;
+    width:12%;
+    height:60px;
+    border-right: 2px solid rgb(0, 0, 0);
+    
+}
+.navigation li:last-child {
+    border-right: none;
+}
+.navigation {
+    padding: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+.navigation ul {
+    background-color:rgb(97, 97, 97);
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.navigation li, .navigation a {
+    display: inline-block;
+    background-color: rgb(97, 97, 97);
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: "Lucida Console", monospace;
+    padding: 23px;
+
+}
+.navigation li a:hover, .dart:hover {
+    background-color:rgb(117, 165, 173);
+    border-radius: 5px;
+    transition: background-color 300ms linear;
+}
+#main {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#form {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.sub-menu {
+    overflow: hidden;
+    float: left;
+}
+.sub-menu  {
+    text-align: center;
+}
+.sub-menu:hover .sub-content {
+    display: block;
+}
+button {
+    right:10px;
+}
+.dart {
+    background-color: rgb(97, 97, 97);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  padding-left: 85px;
+  padding-right:120px;
+}
+.sub-content {
+    display: none;
+  position: absolute;
+  border-style: solid;
+  border: black;
+  z-index: 1;
+}
+.sub-content a {
+  float: none;
+  color: black;
+  padding: 18px;
+  text-decoration: none;
+  display: block;
+  max-width: 217px;
+  text-align: center;
+  background-color: rgb(97, 97, 97);
+}
+a.solid {
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+    border-radius: 15px;
+}
+}
+@media screen and (max-width:1299px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 80%;
+        background-color: rgb(97, 97, 97);
+      }
+      
+      li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #555;
+        color: white;
+      }
+      ul {
+        border: 1px solid #555;
+      }
+      
+      li {
+        text-align: center;
+        border-bottom: 1px solid #555;
+      }
+      
+      li:last-child {
+        border-bottom: none;
+      }
+      .navigation {
+        padding-left: 15%;
+      }
+      .sub-menu {
+        overflow: hidden;
+    }
+    .sub-menu  {
+        text-align: center;
+    }
+    .sub-menu:hover .sub-content {
+        display: block;
+    }
+    .dart {
+        background-color: rgb(97, 97, 97);
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .sub-content {
+        display: none;
+      position: relative;
+      border-style: solid;
+      border: black;
+      border-width: 1px;
+      z-index: 1;
+    }
+    .sub-content a {
+      float: none;
+      color: black;
+      padding: 8px 16px;
+      text-decoration: none;
+      display: block;
+      max-width: 100%;
+      text-align: center;
+      background-color: rgb(97, 97, 97);
+    }
+    a.solid {
+        border-style: solid;
+        border-color:rgb(0, 0, 0);
+    }
+    button:hover {
+        background-color: #555;
+        color: white;
+    }
+}
+#undo1 {
+padding-left:3%;
+}
+#undo {
+width: 7%;
+height: auto;
+border-radius: 50%;
+}
+#goto1 {
+padding-left:80%;
+}
+#goto {
+    width: 7%;
+    height: auto;
+    border-radius: 50%;
+}
+@media screen and (max-width: 1800px) {
+.navigation li, .navigation a, .dart {
+    font-size:14px;
+}
+
+    
+}
+@media screen and (max-width: 1500px) {
+    .navigation li, .navigation a, .dart {
+        font-size:12px;
+    }
+        
+    }
+#gotostart {
+    text-decoration:none;
+    color:blue;
+}
+@media screen and (max-width: 500px) {
+    footer {
+        height:45px;
+    }
+}

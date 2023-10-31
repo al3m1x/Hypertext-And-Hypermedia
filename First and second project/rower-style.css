@@ -1,0 +1,115 @@
+#strap1 {
+    opacity: 0.25;
+    height: 100px;
+    width: 100%;
+}
+.strap {
+    position: relative;
+}
+.header {
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+}
+#rower1 {
+    width: 90%;
+    height: auto;
+    opacity: 0.85;
+    padding-left: 5%;
+}
+h2 {
+    font-size:50px;
+}
+p {
+    font-size: 30px; 
+    color:black;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+#zalety {
+    width: 19.8%;
+    height: auto;
+    padding-left: 75%;
+    position: absolute;
+}
+#p1 {
+    padding-right: 30%;
+}
+#tdfrance {
+    height: auto;
+    width: 40%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+#tdpologne {
+    height: auto;
+    width: 40%;
+    padding-top: 2%;
+    padding-left: 10%;
+}
+#h-3 {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+#setka, #świbno, #bgora {
+width: 30%;
+height: auto;
+padding-left: 2.5%;
+}
+#świbno, #bgora {
+    padding-bottom: 5.75%;
+}
+#link {
+    font-size:30px;
+    padding-left:48%;
+    color:blue;
+    text-decoration:none;
+    font-weight:700;
+}
+@media screen and (max-width:500px) {
+    h2 {
+        font-size:30px;
+        text-align:center;
+    }
+    p {
+        font-size:16px;
+    }
+    .header {
+        display:none;
+    }
+    #link {
+        font-size:20px;
+        padding-left:43%;
+    }
+    #p1 {
+        padding-left:1%;
+        padding-right:1%;
+    }
+    #zalety {
+        display:none;
+    }
+    #zalety1 {
+        width:80%;
+        padding-left:10%;
+    }
+    #strap1 {
+        display:none;
+    }
+    h1 {
+        font-size:32px;
+        text-align:center;
+    }
+    .space {
+        display:none;
+    }
+}
+@media screen and (min-width:500px) {
+    #zalety1 {
+        display:none;
+    }
+    h1 {
+        display:none;
+    }
+}

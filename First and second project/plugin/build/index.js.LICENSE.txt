@@ -1,0 +1,5 @@
+/*!
+ * jquery.marker-animation 1.5.17 - Marker animation jQuery plugin
+ * Copyright (c) 2022 [object Object] - https://github.com/technote-space/jquery.marker-animation#readme
+ * License: MIT
+ */
